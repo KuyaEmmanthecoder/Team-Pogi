@@ -1,0 +1,43 @@
+.reservation-form {
+  display: grid;
+  gap: 16px;
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+  color: #ffffff;
+}
+
+.reservation-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.reservation-form input,
+.reservation-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  text-shadow: #5f5d5d;
+}
+
+
+#reservation h2 {
+  color: white;
+  text-shadow: #5f5d5d;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 480px) {
+  .reservation-form {
+    padding: 12px;
+  }
+
+  #reservation h2 {
+    font-size: 28px;
+  }
+
+  .reservation-form input,
+  .reservation-form select {
+    font-size: 15px;
+  }
+}
